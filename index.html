@@ -30,15 +30,16 @@
 
                 <label for="Years">No. of Years</label><br>
                 <input class="basic2" type="number" id="Years">
-                <br/><br/>
 
-                <button class="button" onclick="compute()">Compute</button>
-                <br/><br/>
-
-                Interest
-                <br/><br/>
-                <span id="result"></span>
-                <br/>  <br/>
+              </div>
+              <div class="box_buttons">
+                <h3>Interest</h3>
+                <button class="button" onclick="compute_easy()">Simple Interest</button>
+                <span id="result1"></span>
+                <br/>
+                <button class="button" onclick="compute()">Compound Interest</button>
+                <span id="result2"></span>
+                <br/>
 
                 <button class="button" onClick="window.location.reload(true)">Reset</button>
               </div>
