@@ -15,25 +15,25 @@
 
           <div class="box">
               <label for="amount">Amount</label><br>
-              <input type="number"  id="amount" name="amount">
+              <input class="basic2" type="number" id="amount" name="amount">
                <br/><br/>
 
-               <div class="range-slider">
-                 <label for="amount">Rate</label><br>
-                 <input class="range-slider__range" type="range" value="250" min="0" max="500" step="1">
-                 <span class="range-slider__value">0</span>
-               </div>
+               <label for="amount">Rate</label><br>
+               <input class="basic" type="range" demo="basic">
+               <span class="span1 span2" id="basic"></span>
 
               <br/><br/>
 
               <label for="Years">No. of Years</label><br>
-              <input type="number"  id="Years" name="Years">
+              <input class="basic2" type="number"  id="Years" name="Years">
               <br/><br/>
 
               <button class="button" onclick="compute()">Compute</button>
               <br/><br/>
 
-              Interest : <span id="result"></span> <br><br/>
+              Interest
+              <br/><br/>
+              <span id="result"></span> <br><br/>
             </div>
           </div>
 
