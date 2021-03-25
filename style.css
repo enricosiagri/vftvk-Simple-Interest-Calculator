@@ -10,11 +10,11 @@ h1{
 }
 
 .borders {
-  margin-left: 250px;
-  width: 420px;
   height: 460px;
   border-radius: 20px;
   border: solid black;
+  max-width: 500px;
+  margin: auto;
 }
 
 .box {
@@ -23,6 +23,7 @@ h1{
   margin-left: 110px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin: auto;
 }
 
 .button {
