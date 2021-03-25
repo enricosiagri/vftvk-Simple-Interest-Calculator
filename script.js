@@ -14,10 +14,12 @@ function compute()
   }
 
   if (amount == 0) {
+      alert("Enter an Amount");
       document.getElementById("result2").innerHTML = "Enter an Amount";
       Break;
     }
   if (year == 0) {
+      alert("Years Required");
       document.getElementById("result2").innerHTML = "Years Required";
       Break;
     }
@@ -36,10 +38,12 @@ function compute_easy() {
 
   inter = (amount*rate*0.01*year);
   if (amount == 0) {
+      alert("Enter an Amount");
       document.getElementById("result1").innerHTML = "Enter an Amount";
       Break;
     }
   if (year == 0) {
+      alert("Years Required");
       document.getElementById("result1").innerHTML = "Years Required";
       Break;
     }
