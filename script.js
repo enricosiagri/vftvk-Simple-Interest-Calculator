@@ -3,7 +3,7 @@ function compute()
 
   var amount = Number(document.getElementById("amount").value);
   var year = Number(document.getElementById("Years").value);
-  var rate = Number(document.getElementById("rate").value);
+  var rate = Number(document.getElementById("Interest").value);
 
 
   for (i=0; i<year; i++) {

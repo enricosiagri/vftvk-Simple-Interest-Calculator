@@ -10,7 +10,7 @@ h1{
 }
 
 .borders {
-  height: 460px;
+  height: 480px;
   border-radius: 20px;
   border: solid black;
   max-width: 500px;
@@ -19,7 +19,7 @@ h1{
 
 .box {
   width: 220px;
-  height: 330px;
+  height: 460px;
   margin-left: 110px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -47,6 +47,9 @@ h1{
   color: white;
 }
 
+.slider_bar{
+  width: 180px;
+}
 
 .basic {float:left; width:180px; height:15px; cursor:pointer; margin-left:20px; }
 
