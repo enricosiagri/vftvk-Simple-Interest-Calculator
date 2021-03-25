@@ -20,12 +20,17 @@ span {
   font-size: 20px;
 }
 
+.ywl_high {
+  background-color: #FFFF00;
+  color: black;
+}
+
 .font_rate_number {
   font-size: 20px;
 }
 
 .borders {
-  height: 590px;
+  height: 640px;
   border-radius: 20px;
   border: solid #92A3D0;
   max-width: 500px;
@@ -101,4 +106,28 @@ span {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+}
+
+details{
+    width: 90%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+details:hover{
+  background-color: #6A92FF;
+  color: white;
+}
+
+details[open] > summary {
+  transition-duration: 0.8s;
+  cursor: pointer;
+  background-color: #6A92FF;
 }
