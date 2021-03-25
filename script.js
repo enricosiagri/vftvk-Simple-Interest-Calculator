@@ -16,11 +16,13 @@ function compute()
   if (amount == 0) {
       alert("Enter an Amount");
       document.getElementById("result2").innerHTML = "Enter an Amount";
+      document.getElementById("amount").focus();
       Break;
     }
   if (year == 0) {
       alert("Years Required");
       document.getElementById("result2").innerHTML = "Years Required";
+      document.getElementById("Years").focus();
       Break;
     }
   if (year != 0 && amount != 0) {
@@ -40,11 +42,13 @@ function compute_easy() {
   if (amount == 0) {
       alert("Enter an Amount");
       document.getElementById("result1").innerHTML = "Enter an Amount";
+      document.getElementById("amount").focus();
       Break;
     }
   if (year == 0) {
       alert("Years Required");
       document.getElementById("result1").innerHTML = "Years Required";
+      document.getElementById("Years").focus();
       Break;
     }
   if (year != 0 && amount != 0) {
