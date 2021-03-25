@@ -5,11 +5,9 @@ function compute()
   var year = Number(document.getElementById("Years").value);
   var rate = Number(document.getElementById("Interest").value);
 
-  var inter = 0;
-
   for (i=0; i<year; i++) {
-    amount = amount+inter;
-    inter = (amount*rate*0.01);
+    inter = inter+(amount*rate*0.01);
+    amonut = amount+inter;
   }
 
   document.getElementById("result2").innerHTML = inter.toFixed(2);
