@@ -1,7 +1,15 @@
 function compute()
 {
-    amount = document.getElementById("amount").value;
-    rate = document.getElementById("rate").value;
-    years = document.getElementById("Years").value;
-    
+
+  var amount = Number(document.getElementById("amount").value);
+  var year = Number(document.getElementById("Years").value);
+  var rate = Number(document.getElementById("rate").value);
+
+
+  for (i=0; i<year; i++) {
+    inter = (amount*rate*0.01);
+    amount = amount+inter;
+  }
+
+  document.getElementById("result").innerHTML = amount;
 }
