@@ -48,7 +48,7 @@ h1{
 }
 
 .slider_bar{
-  width: 180px;
+  width: 100%;
 }
 
 .basic {float:left; width:180px; height:15px; cursor:pointer; margin-left:20px; }
