@@ -2,13 +2,17 @@ function compute()
 {
 
   var amount = Number(document.getElementById("amount").value);
+  var original = Number(document.getElementById("amount").value);
   var year = Number(document.getElementById("Years").value);
   var rate = Number(document.getElementById("Interest").value);
 
+
   for (i=0; i<year; i++) {
-    inter = inter+(amount*rate*0.01);
-    amonut = amount+inter;
+    inter = (amount*rate*0.01);
+    amount = amount+inter;
+    money = amount - original;
   }
+
   if (amount == 0) {
       document.getElementById("result2").innerHTML = "Enter an Amount";
       Break;
@@ -18,8 +22,10 @@ function compute()
       Break;
     }
   if (year != 0 && amount != 0) {
-      document.getElementById("result2").innerHTML = inter.toFixed(2);
+      document.getElementById("result2").innerHTML = money.toFixed(2);
+      Break;
     }
+
 }
 
 function compute_easy() {

@@ -83,9 +83,20 @@ span {
   cursor:pointer;
 }
 
-.basic2 {float:left;
+.basic2 {
+  float:left;
   width:300px;
   height:35px;
+  cursor:pointer;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.basic3 {
+  width:80px;
+  height:35px;
+  margin: auto;
   cursor:pointer;
   font-weight: bold;
   font-size: 20px;
