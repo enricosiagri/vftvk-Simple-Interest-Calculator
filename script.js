@@ -11,13 +11,13 @@ function compute() {
     money = amount - original;
   }
 
-  if (amount == 0) {
+  if (amount <= 0) {
       alert("Enter an Amount > 0");
       document.getElementById("result2").innerHTML = "Enter Amount > 0";
       document.getElementById("amount").focus();
       Break;
     }
-  if (year == 0) {
+  if (year <= 0) {
       alert("Years Required");
       document.getElementById("result2").innerHTML = "Years Required > 0";
       document.getElementById("Years").focus();
@@ -38,13 +38,13 @@ function compute_easy() {
   var rate = Number(document.getElementById("Interest").value);
 
   inter = (amount*rate*0.01*year);
-  if (amount == 0) {
+  if (amount <= 0) {
       alert("Enter Amount > 0");
       document.getElementById("result1").innerHTML = "Enter Amount > 0";
       document.getElementById("amount").focus();
       Break;
     }
-  if (year == 0) {
+  if (year <= 0) {
       alert("Years Required");
       document.getElementById("result1").innerHTML = "Years Required > 0";
       document.getElementById("Years").focus();
